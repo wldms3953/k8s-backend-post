@@ -2,7 +2,9 @@ package com.welab.k8s_backend_post.common.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
+@ToString
 @Getter
 @NoArgsConstructor
 public class ApiResponseDto<T> {
